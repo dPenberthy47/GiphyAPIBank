@@ -64,7 +64,7 @@ var topics = [
           var rating = results[i].rating;
   
           // Creating an element to have the rating displayed
-          var pOne = $("<p>").text(movie + " Gif Rating: " + rating).css("color", "yellow");
+          var p = $("<p>").text(movie + " Gif Rating: " + rating).css("color", "yellow");
   
           // The Images can still or animate to call the class "disneyGif" for click.
           var disneyGif = $("<img>");
@@ -76,7 +76,7 @@ var topics = [
   
   
           // Displaying the rating
-          disneyDiv.prepend(pOne);
+          disneyDiv.prepend(p);
   
           // Retrieving the URL for the image
           disneyDiv.prepend(disneyGif)
