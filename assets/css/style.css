@@ -48,5 +48,7 @@ button:first-of-type {
 }
 
 img {
-   
+   width: 180px;
+   height: 180px;
+   margin: 12px;
 }
