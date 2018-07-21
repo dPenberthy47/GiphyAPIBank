@@ -29,9 +29,11 @@ button:first-of-type {
 
 
 #gifs {
-    background: url("http://www.tioorlando.com.br/wp-content/uploads/2013/10/Kiss-Goodnight.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: transparent;
+}
+
+#disney-gif {
+    background: transparent;
 }
 
 #label {
@@ -46,7 +48,5 @@ button:first-of-type {
 }
 
 img {
-    margin: 12.5px;
-    width: 175px;
-    height: 175px;
+   
 }
